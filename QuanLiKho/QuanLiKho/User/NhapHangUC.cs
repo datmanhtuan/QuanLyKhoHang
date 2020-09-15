@@ -77,6 +77,30 @@ private void button3_Click(object sender, EventArgs e)
         private void NhapHangUC_Load(object sender, EventArgs e)
         {
             dgView.DataSource=displayALLPhieuNhap();
+            //if (e.RowIndex == -1)
+            //{
+            //    return;
+            //}
+            //MaLoHang1 = dgView.Rows[e.RowIndex].Cells["ML"].Value.ToString();
+            //MaHH1 = dgView.Rows[e.RowIndex].Cells["MH"].Value.ToString();
+            //NgayNhap1 = dgView.Rows[e.RowIndex].Cells["NH"].Value.ToString();
+            //NSX1 = dgView.Rows[e.RowIndex].Cells["NS"].Value.ToString();
+            //HSD1 = dgView.Rows[e.RowIndex].Cells["HS"].Value.ToString();
+            //SoLuong1 = dgView.Rows[e.RowIndex].Cells["SL"].Value.ToString();
+            //Gia1 = dgView.Rows[e.RowIndex].Cells["GI"].Value.ToString();
+            //MaLoHang.Text = MaLoHang1;
+            //MaHH.Text = MaHH1;
+            //SoLuong.Text = SoLuong1;
+            //try
+            //{
+            //    NSX.Value = DateTime.Parse(NSX1);
+            //    NgayNhap.Value = DateTime.Parse(NgayNhap1);
+            //    HSD.Value = DateTime.Parse(HSD1);
+            //}
+            //catch
+            //{
+
+            //}
         }
 
         private DataTable displayALLPhieuNhap()
