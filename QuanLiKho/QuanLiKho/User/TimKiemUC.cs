@@ -32,8 +32,12 @@ namespace QuanLiKho.User
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
-        }
+               dgView.DataSource = da.GetAllPhieuNhap();
+               foreach (string item in da.GetAllMaHH())
+               {
+                    comboBox1.Items.Add(item);
+               }
+          }
 
         private void button3_Click(object sender, EventArgs e)
         {
