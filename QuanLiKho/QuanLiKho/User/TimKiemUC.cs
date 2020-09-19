@@ -48,7 +48,18 @@ namespace QuanLiKho.User
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-        }
+               if (kt)
+               {
+                    button1.Text = "Xuất hàng";
+                    kt = false;
+                    dgView.DataSource = da.GetAllPhieuXuat();
+               }
+               else
+               {
+                    button1.Text = "Nhập hàng";
+                    kt = true;
+                    dgView.DataSource = da.GetAllPhieuNhap();
+               }
+          }
     }
 }
