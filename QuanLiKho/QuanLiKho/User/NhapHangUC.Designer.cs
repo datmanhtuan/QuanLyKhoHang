@@ -100,6 +100,7 @@
             this.dgView.Size = new System.Drawing.Size(1476, 609);
             this.dgView.TabIndex = 15;
             this.dgView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgView_CellClick_1);
+            this.dgView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgView_CellContentClick);
             // 
             // ML
             // 

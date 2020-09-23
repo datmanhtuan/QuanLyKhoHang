@@ -39,23 +39,40 @@ namespace QuanLiKho.User
                 MessageBox.Show("Xóa không thành công");
             }
         }
-        /*
-        private void button3_Click(object sender, EventArgs e)
+
+        private void dgView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
-            {
-                MessageBox.Show("Xoa Thanh công");
-                MaHH.Text = "";
-                MaLoHang.Text = "";
-                SoLuong.Text = "";
-                dgView.DataSource = displayALLPhieuNhap();
-            }
-            else
-            {
-                MessageBox.Show("Xóa không thành công");
-            }
+            //if (da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+            //{
+            //    MessageBox.Show("Xoa Thanh công");
+            //    MaHH.Text = "";
+            //    MaLoHang.Text = "";
+            //    SoLuong.Text = "";
+            //    dgView.DataSource = displayALLPhieuNhap();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Xóa không thành công");
+            //}
         }
-        */
+
+        /*
+private void button3_Click(object sender, EventArgs e)
+{
+   if(da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+   {
+       MessageBox.Show("Xoa Thanh công");
+       MaHH.Text = "";
+       MaLoHang.Text = "";
+       SoLuong.Text = "";
+       dgView.DataSource = displayALLPhieuNhap();
+   }
+   else
+   {
+       MessageBox.Show("Xóa không thành công");
+   }
+}
+*/
 
         private void NhapHangUC_Load(object sender, EventArgs e)
         {
