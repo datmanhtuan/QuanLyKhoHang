@@ -25,6 +25,13 @@ namespace QuanLiKho.User
         
 
        
+
+        private void NhapHangUC_Load(object sender, EventArgs e)
+        {
+            dgView.DataSource=displayALLPhieuNhap();
+        }
+
+       
     }
 }
 
