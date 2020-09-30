@@ -1,0 +1,34 @@
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojAssemblyReference.cache
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Properties.Resources.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.GenerateResource.cache
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.CoreCompileInputs.cache
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.pdb
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.pdb
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Main.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.KhoUC.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.NhapHangUC.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.XuatHangUC.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.TimKiemUC.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Login.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.TrangChu.resources
+C:\Users\MTAAMF\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.LoaiHangHoaUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.pdb
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojAssemblyReference.cache
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Login.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Main.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Properties.Resources.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.KhoUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.LoaiHangHoaUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.NhapHangUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.TimKiemUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.TrangChu.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.User.XuatHangUC.resources
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.GenerateResource.cache
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.CoreCompileInputs.cache
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe
+C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.pdb
