@@ -31,7 +31,35 @@ namespace QuanLiKho.User
             dgView.DataSource=displayALLPhieuNhap();
         }
 
-       
+        private DataTable displayALLPhieuNhap()
+        {
+            return da.GetAllPhieuNhap();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (da.ThemPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))            
+            {
+                MessageBox.Show("Thêm thành công");
+                MaHH.Text = "";
+                MaLoHang.Text = "";
+                SoLuong.Text = "";
+                dgView.DataSource = displayALLPhieuNhap();
+            }
+            else
+            {
+                MessageBox.Show("Thêm không thành công");
+            }
+        }
+
+        private void NgayNhap_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+      
     }
 }
 
