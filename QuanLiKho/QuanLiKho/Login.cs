@@ -23,6 +23,15 @@ namespace QuanLiKho
             Main f1 = new Main();
             f1.ShowDialog();
             this.Close();
+            //this.Hide();
+            //Main f1 = new Main();
+            //f1.ShowDialog();
+            //this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

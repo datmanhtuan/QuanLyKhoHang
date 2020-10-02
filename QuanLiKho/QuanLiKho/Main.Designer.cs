@@ -63,6 +63,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Location = new System.Drawing.Point(0, 582);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -95,6 +96,7 @@
             this.btHomeroomTeacher.FlatAppearance.BorderSize = 0;
             this.btHomeroomTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btHomeroomTeacher.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btHomeroomTeacher.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btHomeroomTeacher.Location = new System.Drawing.Point(0, 465);
             this.btHomeroomTeacher.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeroomTeacher.Name = "btHomeroomTeacher";
@@ -111,6 +113,7 @@
             this.btClass.FlatAppearance.BorderSize = 0;
             this.btClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btClass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btClass.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btClass.Location = new System.Drawing.Point(0, 348);
             this.btClass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btClass.Name = "btClass";
@@ -127,6 +130,7 @@
             this.btStudent.FlatAppearance.BorderSize = 0;
             this.btStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btStudent.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btStudent.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btStudent.Location = new System.Drawing.Point(0, 236);
             this.btStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btStudent.Name = "btStudent";
@@ -143,6 +147,7 @@
             this.btTeacher.FlatAppearance.BorderSize = 0;
             this.btTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btTeacher.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btTeacher.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btTeacher.Location = new System.Drawing.Point(0, 120);
             this.btTeacher.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btTeacher.Name = "btTeacher";
@@ -154,11 +159,12 @@
             // 
             // btHome
             // 
-            this.btHome.BackColor = System.Drawing.Color.Cyan;
+            this.btHome.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btHome.FlatAppearance.BorderSize = 0;
             this.btHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btHome.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btHome.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btHome.Location = new System.Drawing.Point(0, 0);
             this.btHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHome.Name = "btHome";
@@ -174,7 +180,7 @@
             this.pnMain.Location = new System.Drawing.Point(155, 0);
             this.pnMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Size = new System.Drawing.Size(1580, 837);
+            this.pnMain.Size = new System.Drawing.Size(1529, 837);
             this.pnMain.TabIndex = 1;
             this.pnMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnMain_Paint);
             // 
@@ -182,13 +188,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1735, 837);
+            this.ClientSize = new System.Drawing.Size(1684, 837);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lí kho";
+            this.Text = "KHO";
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
