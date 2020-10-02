@@ -353,7 +353,8 @@
         }
 
         #endregion
-       
+        
+        private System.Windows.Forms.DataGridViewTextBoxColumn GI;
     }
 }
 
