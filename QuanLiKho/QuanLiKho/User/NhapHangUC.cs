@@ -40,6 +40,40 @@ namespace QuanLiKho.User
             }
         }
 
+        private void dgView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //if (da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+            //{
+            //    MessageBox.Show("Xoa Thanh công");
+            //    MaHH.Text = "";
+            //    MaLoHang.Text = "";
+            //    SoLuong.Text = "";
+            //    dgView.DataSource = displayALLPhieuNhap();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Xóa không thành công");
+            //}
+        }
+
+        /*
+private void button3_Click(object sender, EventArgs e)
+{
+   if(da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+   {
+       MessageBox.Show("Xoa Thanh công");
+       MaHH.Text = "";
+       MaLoHang.Text = "";
+       SoLuong.Text = "";
+       dgView.DataSource = displayALLPhieuNhap();
+   }
+   else
+   {
+       MessageBox.Show("Xóa không thành công");
+   }
+}
+*/
+
         private void NhapHangUC_Load(object sender, EventArgs e)
         {
             dgView.DataSource=displayALLPhieuNhap();
@@ -68,7 +102,18 @@ namespace QuanLiKho.User
 
         private void NgayNhap_ValueChanged(object sender, EventArgs e)
         {
-
+            //if (da.XoaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+            //{
+            //    MessageBox.Show("Xoa Thanh công");
+            //    MaHH.Text = "";
+            //    MaLoHang.Text = "";
+            //    SoLuong.Text = "";
+            //    dgView.DataSource = displayALLPhieuNhap();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Xóa không thành công");
+            //}
         }
 
         
@@ -113,6 +158,21 @@ namespace QuanLiKho.User
                 MessageBox.Show("Sua không thành công");
             }
         }
+        
+        /*
+         private void button2_Click(object sender, EventArgs e)
+        {
+            if(da.SuaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+            {
+                MessageBox.Show("Sua thành công");
+                dgView.DataSource = da.GetAllPhieuNhap();
+            }
+            else
+            {
+                MessageBox.Show("Sua không thành công");
+            }
+        }
+        */
     }
 }
 

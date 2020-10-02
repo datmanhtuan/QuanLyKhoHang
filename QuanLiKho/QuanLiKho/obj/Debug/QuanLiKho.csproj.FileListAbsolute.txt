@@ -32,3 +32,6 @@ C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.Generate
 C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.CoreCompileInputs.cache
 C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe
 C:\Users\MTA 2k5\Desktop\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.pdb
+C:\Users\HP\Documents\GitHub\QuanLyKhoHang\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\QuanLyKhoHang\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe
+C:\Users\HP\Documents\GitHub\QuanLyKhoHang\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.pdb
