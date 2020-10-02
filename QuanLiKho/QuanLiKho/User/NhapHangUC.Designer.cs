@@ -100,7 +100,6 @@
             this.dgView.Size = new System.Drawing.Size(1476, 609);
             this.dgView.TabIndex = 15;
             this.dgView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgView_CellClick_1);
-            this.dgView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgView_CellContentClick);
             // 
             // ML
             // 
@@ -159,7 +158,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.BackColor = System.Drawing.Color.Aqua;
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.MaHH);
             this.panel2.Controls.Add(this.button2);
@@ -185,7 +184,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button3.Location = new System.Drawing.Point(1276, 98);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(155, 47);
             this.button3.TabIndex = 18;
@@ -206,7 +205,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button2.Location = new System.Drawing.Point(1276, 52);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(155, 48);
             this.button2.TabIndex = 17;
@@ -229,7 +228,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.button1.Location = new System.Drawing.Point(1276, 15);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 43);
             this.button1.TabIndex = 16;
@@ -354,22 +353,13 @@
         }
 
         #endregion
+        private System.Windows.Forms.TextBox MaHH;
+        private System.Windows.Forms.DateTimePicker NgayNhap;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label4;
         
-        private System.Windows.Forms.DataGridViewTextBoxColumn GI;
     }
 }
-/*
- this.button3 = new System.Windows.Forms.Button();
-            this.MaHH = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.NgayNhap = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.SoLuong = new System.Windows.Forms.TextBox();
-            this.HSD = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.NSX = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-*/
 
