@@ -52,5 +52,25 @@ namespace QuanLiKho.User
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (da.SuaPhieuNhap( MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"),  SoLuong.Text))
+            {
+                MessageBox.Show("Sua thành công");
+                dgView.DataSource = da.GetAllPhieuXuat();
+            }
+            else
+            {
+                MessageBox.Show("Sua không thành công");
+            }
+        }
+
+        public XuatHangUC()
+        {
+            InitializeComponent();
+            da = new XuatHangfn();
+        }
+
+
     }
 }
