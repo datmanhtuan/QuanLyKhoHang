@@ -359,7 +359,24 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
-        
+        private System.Windows.Forms.TextBox SoLuong;
+        private System.Windows.Forms.DateTimePicker HSD;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker NSX;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox MaLoHang;
+        private System.Windows.Forms.DataGridView dgView;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ML;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NH;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SL;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GI;
     }
 }
 
