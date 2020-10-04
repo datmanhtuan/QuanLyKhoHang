@@ -71,6 +71,13 @@ namespace QuanLiKho.User
             da = new XuatHangfn();
         }
 
+        private void XuatHangUC_Load(object sender, EventArgs e)
+        {
+            dgView.DataSource = da.GetAllPhieuXuat();
+        }
+
+
+
 
     }
 }
