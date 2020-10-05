@@ -29,6 +29,15 @@ namespace QuanLiKho.User
                 comboBox1.Items.Add(item);
             }
         }
+        public void SetNull()
+        {
+            txtTK.Text = "";
+            txtMaSP.Text = "";
+            txtTenSP.Text = "";
+            txtNSX.Text = "";
+            txtMoTa.Text = "";
+            pictureBox1.Image = null;
+        }
         public void HienThi()
         {
             dataGridView1.DataSource = sp.ShowSanPham("");
