@@ -76,7 +76,20 @@ namespace QuanLiKho.User
             dgView.DataSource = da.GetAllPhieuXuat();
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (da.ThemPhieuXuat( MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd") , SoLuong.Text))
+            {
+                MessageBox.Show("Thêm thành công");
+                MaLoHang.Text = "";
+                SoLuong.Text = "";
+                dgView.DataSource = da.GetAllPhieuXuat();
+            }
+            else
+            {
+                MessageBox.Show("Thêm không thành công");
+            }
+        }
 
 
     }
