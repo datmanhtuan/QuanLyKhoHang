@@ -29,6 +29,15 @@ namespace QuanLiKho.User
                 comboBox1.Items.Add(item);
             }
         }
+        public void HienThi()
+        {
+            dataGridView1.DataSource = sp.ShowSanPham("");
+            for (int i = 0; i < dataGridView1.RowCount - 1; i++)
+            {
+                dataGridView1.Rows[i].Cells[0].Value = (i + 1).ToString();
+            }
+            Init();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
