@@ -38,7 +38,8 @@
             this.BackColor = System.Drawing.Color.Snow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TrangChu";
             this.Size = new System.Drawing.Size(1516, 837);
             this.ResumeLayout(false);
