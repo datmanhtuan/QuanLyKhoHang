@@ -154,7 +154,7 @@
             // 
             // btHome
             // 
-            this.btHome.BackColor = System.Drawing.Color.Cyan;
+            this.btHome.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btHome.FlatAppearance.BorderSize = 0;
             this.btHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -174,7 +174,7 @@
             this.pnMain.Location = new System.Drawing.Point(155, 0);
             this.pnMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Size = new System.Drawing.Size(1580, 837);
+            this.pnMain.Size = new System.Drawing.Size(1529, 837);
             this.pnMain.TabIndex = 1;
             this.pnMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnMain_Paint);
             // 
@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1735, 837);
+            this.ClientSize = new System.Drawing.Size(1684, 837);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
