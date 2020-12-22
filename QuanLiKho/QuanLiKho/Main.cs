@@ -16,6 +16,8 @@ namespace QuanLiKho
         public Main()
         {
             InitializeComponent();
+            pnMain.Controls.Clear();
+            pnMain.Controls.Add(new TrangChu());
         }
         private void btTeacher_Click(object sender, EventArgs e)
         {
