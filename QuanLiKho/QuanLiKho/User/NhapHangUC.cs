@@ -130,6 +130,21 @@ namespace QuanLiKho.User
                 MessageBox.Show("Sua không thành công");
             }
         }
+        
+        /*
+         private void button2_Click(object sender, EventArgs e)
+        {
+            if(da.SuaPhieuNhap(MaHH.Text, MaLoHang.Text, NgayNhap.Value.ToString("yyyy-MM-dd"), NSX.Value.ToString("yyyy-MM-dd"), HSD.Value.ToString("yyyy-MM-dd"), SoLuong.Text))
+            {
+                MessageBox.Show("Sua thành công");
+                dgView.DataSource = da.GetAllPhieuNhap();
+            }
+            else
+            {
+                MessageBox.Show("Sua không thành công");
+            }
+        }
+        */
     }
 }
 
