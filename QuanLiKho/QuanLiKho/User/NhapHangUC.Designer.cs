@@ -379,4 +379,18 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn GI;
     }
 }
+/*
+ this.button3 = new System.Windows.Forms.Button();
+            this.MaHH = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.NgayNhap = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.SoLuong = new System.Windows.Forms.TextBox();
+            this.HSD = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
+            this.NSX = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
+*/
 
