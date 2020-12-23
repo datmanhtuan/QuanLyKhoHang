@@ -63,6 +63,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Location = new System.Drawing.Point(0, 582);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -95,6 +96,7 @@
             this.btHomeroomTeacher.FlatAppearance.BorderSize = 0;
             this.btHomeroomTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btHomeroomTeacher.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btHomeroomTeacher.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btHomeroomTeacher.Location = new System.Drawing.Point(0, 465);
             this.btHomeroomTeacher.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHomeroomTeacher.Name = "btHomeroomTeacher";
@@ -111,6 +113,7 @@
             this.btClass.FlatAppearance.BorderSize = 0;
             this.btClass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btClass.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btClass.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btClass.Location = new System.Drawing.Point(0, 348);
             this.btClass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btClass.Name = "btClass";
@@ -127,6 +130,7 @@
             this.btStudent.FlatAppearance.BorderSize = 0;
             this.btStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btStudent.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btStudent.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btStudent.Location = new System.Drawing.Point(0, 236);
             this.btStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btStudent.Name = "btStudent";
@@ -143,6 +147,7 @@
             this.btTeacher.FlatAppearance.BorderSize = 0;
             this.btTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btTeacher.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btTeacher.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btTeacher.Location = new System.Drawing.Point(0, 120);
             this.btTeacher.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btTeacher.Name = "btTeacher";
@@ -159,6 +164,7 @@
             this.btHome.FlatAppearance.BorderSize = 0;
             this.btHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btHome.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btHome.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btHome.Location = new System.Drawing.Point(0, 0);
             this.btHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btHome.Name = "btHome";
